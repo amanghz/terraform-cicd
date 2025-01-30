@@ -3,5 +3,5 @@ resource "aws_instance" "Testing" {
   instance_type = "t2.micro"               # Choose an EC2 instance type (e.g., t2.micro)
 
   tags = {
-    Name = "MyEC2Instance"
+    Name = "MyEC2Instance1"
   }
